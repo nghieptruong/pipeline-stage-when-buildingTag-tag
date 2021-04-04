@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Build') {
 			when {
-				tag "2.0"
+				tag "3.0"
 			}
 			steps {
 				echo 'Hello world building tag'
